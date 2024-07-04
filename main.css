@@ -29,3 +29,29 @@ ol {
     margin: 2rem 0;
     font-size: 1.3rem;
 }
+
+.products-list {
+    border: 0.1rem solid #ccc;
+    border-radius: 1rem;
+    list-style: none;
+}
+
+.products-list>li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.products-list>li+li {
+    border-top: 0.1rem solid #ccc;
+}
+
+.products-list .title {
+    font-weight: bold;
+}
+
+.products-list .count {
+    padding: 0.5rem 1rem;
+    background-color: #ccc;
+}
+

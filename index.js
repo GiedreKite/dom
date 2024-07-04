@@ -1,5 +1,3 @@
-console.log('labas');
-console.log('labas');
-console.log('labas');
-console.log('labas');
-console.log('labas');
+import { headeris } from "./js/jss.js";
+
+headeris();
