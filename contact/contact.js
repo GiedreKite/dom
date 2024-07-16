@@ -1,3 +1,5 @@
+import { header } from "../js/header.js";
+header();
 const initialElementDOM = document.getElementById('initial_element');
 
 initialElementDOM.innerHTML = `

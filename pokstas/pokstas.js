@@ -24,6 +24,8 @@ gal net panaudoti CSS grid.
 
 Nuoroda turi atsidaryti naujame narsykles tab'e.
 */
+import { header } from "../js/header.js";
+header();
 
 const initialElementDOM = document.getElementById('initial_element');
 

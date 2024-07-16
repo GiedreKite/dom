@@ -1,4 +1,5 @@
-
+import { header } from "../js/header.js";
+header();
 const h1DOM = document.getElementById('title');
 console.log(h1DOM);
 

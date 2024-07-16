@@ -1,5 +1,8 @@
 // <button type="button">Click me</button>
 
+import { header } from "../js/header.js";
+header();
+
 const formDOM = document.getElementsByTagName('form')[0];
 formDOM.innerHTML = '<button type="button">Click me</button>';
 
